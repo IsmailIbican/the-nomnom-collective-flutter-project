@@ -1,0 +1,58 @@
+# --- Flutter & Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# --- Android ---
+android/app/libs/
+android/idea/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+# Android keys & keystores (For Security)
+*.jks
+*.keystore
+key.properties
+
+# --- iOS ---
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/runner/base.lproj/main.storyboardc
+ios/Pods/
+ios/.symlinks/
+# iOS keys (For Security)
+GoogleService-Info.plist
+
+# --- Web ---
+web/icons/Icon-192.png
+web/icons/Icon-512.png
+web/favicon.png
+
+# --- IDE & Editors (Unnecessary Setting Files) ---
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# --- Mac & Windows System Files (Unnecessary Files) ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Firebase & Secrets (For Security) ---
+google-services.json
+firebase_options.dart
+*.env
